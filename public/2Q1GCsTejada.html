@@ -3,17 +3,79 @@
 
     <head>
         <meta charset="UTF-8"> <!-- lets you add complex stuff like emojis -->
-        <meta viewport content = "width=device-width, initial-scale=1.0"> <!-- this is for mobile devices -->
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0"> <!-- this is for mobile devices -->
         <title> 1st Graded </title>
         <link rel="icon" type="image/png" href="https://vignette.wikia.nocookie.net/clashroyale/images/0/0b/MegaKnightCard.png/revision/latest?cb=20170613040618">
+        <style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .nav-bar {
+        display: flex;
+        background-color: #7500b0;
+        padding: 10px 0;
+    }
+
+    .nav-links {
+        display: flex;
+        margin: auto /* center the links */
+    }
+
+    .nav-links ul, .special-link a {
+        list-style: none;
+        display: flex;
+        gap: 100px; /* space between links */
+        margin: 0;
+        padding: 0;
+    }
+
+    .special-link a {
+        padding: 20px
+    }
+
+    .nav-links ul li a, .special-link a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .nav-links ul li a:hover, .special-link a:hover {
+        text-decoration: underline;
+    }
+  </style>
+
     </head>
 
-    <body>
-        <h1>  </h1>
-        <img src = "https://tse4.mm.bing.net/th/id/OIP.RtupVUhlYHNOGEbsz2iZWQHaGK?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3" width = "900" alt = "LEBROOOOOOOOOOONNNNNNNNNNNNNNNNNN">
-        <p>  </p>
 
-        <h2><a href = "../index.html">Home</a></h2>
+    <body style="
+        background-image: url('https://static.foxnews.com/foxnews.com/content/uploads/2023/06/basketball.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh">
+
+        <header>
+            <nav class = "nav-bar">
+                <div class="special-link">
+                    <a href="../index.html">Home</a>
+                </div>
+                <div class="nav-links">
+                    <ul>
+                            <li><a href="#">Prehistory</a></li>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Skillset</a></li>
+                            <li><a href="#">Stats</a></li>
+                    </ul>
+                </div>
+                
+            </nav>
+        </header>
+     
+        
+
     </body>
 
 </html>
